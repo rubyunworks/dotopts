@@ -1,12 +1,14 @@
 # DotOpts
 
-**Automated Command-line Options (for Ruby Executables)**
+> **Archived.** DotOpts provided per-directory default command-line options for
+> Ruby tools. Today, tools like [direnv](https://direnv.net/) and
+> [mise](https://mise.jdx.dev/) handle per-directory environment configuration,
+> and Makefiles/Rakefiles are commonly used to wrap commands with default options.
+> Nobody really solved the "default CLI options per directory" problem the way
+> DotOpts tried to — the pattern just didn't catch on, as people tend to wrap
+> commands instead. This repository is preserved for historical reference.
 
-[Website](http://rubyworks.github.com/dotopts) /
-[Report Issue](http://github.com/rubyworks/dotopts/issues) /
-[Source Code](http://github.com/rubyworks/dotopts) /
-[![Build Status](https://secure.travis-ci.org/rubyworks/dotopts.png)](http://travis-ci.org/rubyworks/dotopts) /
-[![Gem Version](https://badge.fury.io/rb/dotopts.png)](http://badge.fury.io/rb/dotopts)
+**Automated Command-line Options (for Ruby Executables)**
 
 ## About
 
